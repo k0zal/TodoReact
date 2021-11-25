@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+
+
+
+
+.inputcontainer{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+
+.todoinput{
+    padding:20px 10px;
+    border:none;
+    background-color: transparent;
+    outline:none;
+    width:100%;
+}
+
+.searchcontainer{
+    padding:0px 10px;
+    width:88%;
+    display:flex;
+    border-radius:6px;
+    align-items: center;
+    
+    
+}
+
+.searchcontainer > input{
+    font-size: 18px;
+    color:rgb(119,122,146);
+    
+}
+
+
+
+
+

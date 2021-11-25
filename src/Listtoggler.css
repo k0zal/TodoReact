@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+
+.todostatetoggler{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    margin-bottom:1em;
+}
+
+.filterstates{
+    margin-top:2.5vh;
+    padding:20px 10px;
+    border:none;
+    background-color: rgb(36,39,59);
+    outline:none;
+    width:88%;
+    display: flex;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.filterztates{
+    box-shadow: rgb(157 162 235 / 30%) -1px 5px 20px 10px;
+}
+
+.statedivs{
+    display: flex;
+    justify-content: space-evenly;
+    width:70%;
+    color:rgb(119,122,146);
+}
+
+.alldiv:active{
+    color:rgb(236, 106, 0)
+}
+
+.activediv.active{
+    color:lightblue
+}
+
+.completeddiv.active{
+    color:lightblue
+}
+
+.tabs{
+    cursor: pointer;
+}
+
+.tabs:hover{
+    color:rgb(223, 221, 221);
+}
+
+.active-tabs  {
+    background: white;
+    border-bottom: 1px solid transparent;
+  }
+
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: rgb(88, 147, 241);
+  }
+
+  .active-content {
+  display: block;
+}
+
